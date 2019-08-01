@@ -1,0 +1,32 @@
+{
+  "name": "nomad_instagram",
+  "version": "1.0.0",
+  "description": "Cloning Instagram",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dlehddnr/nomad_instagram.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dlehddnr/nomad_instagram/issues"
+  },
+  "homepage": "https://github.com/dlehddnr/nomad_instagram#readme",
+  "dependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/node": "^7.2.2",
+    "@babel/preset-env": "^7.3.1",
+    "dotenv": "^8.0.0",
+    "graphql-tools": "^4.0.5",
+    "graphql-yoga": "^1.18.1",
+    "merge-graphql-schemas": "^1.7.0",
+    "morgan": "^1.9.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  },
+  "scripts": {
+    "dev": "nodemon --exec babel-node src/server.js"
+  }
+}
