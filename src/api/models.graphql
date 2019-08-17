@@ -17,6 +17,7 @@ type User {
   loginSecret: String
   createdAt: String
   updatedAt: String
+  avatar: String
 }
 
 type Post {
